@@ -1,0 +1,23 @@
+
+[
+    {
+    "image": "../assets/blue-circle.png",
+    "description": "This is a blue circle"
+    },
+    {
+    "image": "../assets/pink-circle.png",
+    "description": "This is a pink circle"
+    },
+    {
+    "image": "../assets/purple-circle.png",
+    "description": "This is a purple circle"
+    },
+    {
+    "image": "../assets/red-circle.png",
+    "description": "This is a red circle"
+    },
+    {
+    "image": "../assets/yellow-circle.png",
+    "description": "This is a yellow circle"
+    }
+]
