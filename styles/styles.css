@@ -1,0 +1,71 @@
+*{
+	padding: 0;
+	margin-top: 0;
+}
+
+html, body{
+    overflow: hidden;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+
+#image{
+    width: 40vh;
+    height: 40vh;
+    position: absolute;
+    top: 16vh;
+    bottom: auto;
+
+    left: 50%;
+    transform: translateX(-50%);
+
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#description{
+    width: 100vw;
+    position: absolute;
+    top: auto;
+    bottom: 2.5vh;
+    text-align: center;
+    font-size: 10vh;
+}
+
+button{
+    border-radius: 50px;
+    border: 3px solid rgb(0, 0, 0);
+    background: rgba(111, 106, 106, 0.4);
+
+    width: 10vh;
+    height: 10vh;
+    z-index: 2;
+
+    text-align: center;
+    font-size: 30px;
+
+    cursor: pointer;
+}
+
+button:hover{background: rgba(128, 209, 205, 0.8);}
+
+#prevButton, #nextButton {
+    position: absolute;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+    top: 50%;
+    display: inline-block;
+}
+
+#prevButton {
+    left: 5vw;
+}
+
+#nextButton {
+    left: auto;
+    right: 5vw;
+}
+
